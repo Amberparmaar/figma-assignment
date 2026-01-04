@@ -12,10 +12,10 @@
   scroll-behavior: smooth;
 }
 .nav-link {
-  padding: 10px;
+  padding: 20px;
   transition: background-color 2s ease-in-out;
 }
-.nav-link:hover {
+.nav-link:hover, .btn-hover:hover{
   background-color: rgb(232, 210, 83);
 }
 .bg-gray {
@@ -48,7 +48,7 @@
   height: 50px;
 }
 .fa-star {
-  color: yellow;
+  color:#ffe234;
 }
 .list li {
   color: gray;
@@ -71,9 +71,6 @@ footer li:hover {
 
 
 @media screen and (max-width: 950px) {
-  h2{
-    font-size: larger;
-  }
   .input-group {
     width: 300px;
   }
@@ -91,9 +88,5 @@ footer li:hover {
   }
   .center{
   margin-left: 60px;
-}
-.accordion-item{
-  /* width: 100%;
-  background-color: aqua; */
 }
 }
